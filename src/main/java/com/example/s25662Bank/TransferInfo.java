@@ -12,6 +12,9 @@ public class TransferInfo {
         this.balance = balance;
     }
 
+    public String getStatus() {
+        return status;
+    }
 
     @Override
     public String toString() {
